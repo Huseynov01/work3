@@ -1,0 +1,19 @@
+.home{
+    background-image:url(https://cdn.corporate.walmart.com/dims4/WMT/572511c/2147483647/strip/true/crop/1920x1066+0+7/resize/980x544!/quality/90/?url=https%3A%2F%2Fcdn.corporate.walmart.com%2F7b%2F66%2F142c151b4cd3a19c13e1ca65f193%2Fbusinessfornature-banner.png) ;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 99.5%;
+    height: 87vh;
+}
+h1{
+    text-align: center;
+    color: lightgreen;
+    background-color:rgba(255, 255, 255, 0.804);
+}
+a{
+    color: white;
+}
+p{
+    background-color:rgba(255, 255, 255, 0.804);
+}

@@ -1,0 +1,31 @@
+.home{
+    line-height: 100px;
+    margin-left: 195px;
+    display: flex;
+
+}
+.home img{
+    height: 40px;
+    width: auto;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    line-height: 75px;
+    display: flex;
+}
+a:hover{
+    color:#03c4eb;
+}
+a{
+    transition: all 0.1s ease-out;
+    margin: 10px;
+    color: #333333;
+    font-family: "Raleway", Helvetica, Arial, sans-serif;
+    padding-left: 5px;
+    padding-right: 20px;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}

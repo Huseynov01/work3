@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+.ul_a{
+    list-style: disc;
+}
+.ul_b{
+    list-style: square;
+}
+.ul_c{
+    list-style: circle;
+}
+.ul_d{
+    list-style: upper-roman;
+}
+.ul_e{
+    list-style: armenian;
+}
+.ul_f{
+    list-style: 
+    decimal;
+}
