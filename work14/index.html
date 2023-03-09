@@ -1,44 +1,57 @@
-<!DOCTYPE html>
+
+    <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
+<style>
+li:nth-child(even){
+    background-color: aqua;
+    color: white;
+}
+li:nth-child(odd){
+    background-color: blueviolet;
+    color: black;
+}
+li{
+    margin: auto;
+    text-align: center;
+    padding: 3px;
+    font-size: 16px;
+}
+.box{
+    border: 3px solid black;
+    width: 25%;
+}
+ul{
+    list-style-type: none;
+    padding: top;
+    padding-top: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    margin: 0px;
+}
+</style>
 <body>
     <div class="box">
-        <style>
-            p:nth-child(even){
-                background-color: aqua;
-                color: white;
-            }
-            p:nth-child(odd){
-                background-color: blueviolet;
-                color: black;
-            }
-            p{
-                margin: auto;
-                text-align: center;
-                padding: 3px;
-                font-size: 16px;
-            }
-            .box{
-                border: 3px solid black;
-                width: 25%;
-            }
-        </style>
-        <p>Mətin</p>
-        <p>Əli</p>
-        <p>Əliheydər</p>
-        <p>Mirzəfər</p>
-        <p>Rəşad</p>
-        <p>İlkin</p>
-        <p>Ümid</p>
-        <p>Ehtiram</p>
-        <p>Tunar</p>
-        <p>Sabir</p>
-        <p>Tunar</p>
-    </body>
-    </html>
+        <ul>
+            <li>Mətin</li>
+            <li>Əli</li>
+            <li>Əliheydər</li>
+            <li>Mirzefer</li>
+            <li>TunarH</li>
+            <li>TunarM</li>
+            <li>Sabir</li>
+            <li>İlkin</li>
+            <li>Umid</li>
+            <li>Ehtiram</li>
+            <li>Rəşad</li>
+        </ul>
     </div>
+</body>
+</html>
